@@ -1,0 +1,75 @@
+* {
+    margin: 0%
+}
+
+
+body {
+  --nav-height: 0px;
+
+  padding-top: var(--nav-height);
+}
+
+div {
+    font-family: Helvetica;
+    background-color: #272D33;
+    color: white;
+    font-size: 22px;
+    padding: 5px;
+ }
+ 
+ #navbar {
+    display: flex;
+    background-color: #272D33;
+    padding: 5px;
+   justify-content: space-around;
+   transition: transform 0.2s;
+ }
+
+ .nav--hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+    box-shadow: none;
+  }
+
+ .home:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+ .about:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+ .personal:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+ .hobbies:hover {
+    background-color: #ddd;
+    color: black;
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ h2 {
+    padding-top: 2%;
+    padding-left: 23%;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ }
+
+ 
+
+ #info {
+    background-color: white;
+    width: 900px;
+    padding-top: 1%;
+    padding-left: 27%;
+    font-size: 20px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+ }
